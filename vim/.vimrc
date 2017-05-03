@@ -29,3 +29,11 @@ inoremap <left> <nop>
 inoremap <down> <nop>
 inoremap <up> <nop>
 inoremap <right> <nop>
+
+" Why is the escape key so far away?!
+imap ii <Esc>
+
+" Let me copy to the system clipboard
+vnoremap <C-c> "+y
+
+
