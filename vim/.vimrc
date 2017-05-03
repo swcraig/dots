@@ -19,3 +19,13 @@ set number
 set expandtab
 set softtabstop=2
 set shiftwidth=2
+
+" Stop using the arrow keys you dummy
+noremap <left> <nop>
+noremap <down> <nop>
+noremap <up> <nop>
+noremap <right> <nop>
+inoremap <left> <nop>
+inoremap <down> <nop>
+inoremap <up> <nop>
+inoremap <right> <nop>
