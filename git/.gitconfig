@@ -1,0 +1,48 @@
+[include]
+  path = ~/.gitconfig.local
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore.global
+[credential]
+  helper = cache --timeout=3600
+[help]
+  autocorrect = 10
+[alias]
+  b = branch -v
+  ##################
+  c = commit
+  ca = commit -a
+  cm = commit -m
+  cam = commit -am
+  undo-commit = reset --soft HEAD~
+  ##################
+  check = !git checkout $1 && git l
+  ##################
+  d = diff
+  dc = diff --cached
+  ##################
+  l = log --graph --pretty=format:'%Cred%h%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  ##################
+  unstage = reset HEAD --
+  ##################
+  r = rebase
+  rc = rebase --continue
+  ri = rebase -i
+  ##################
+  rh = reset --hard
+  ##################
+  s = status
+  ##################
+  rom = !git rebase -i `git merge-base HEAD master`  # interactive rebase onto master
+  ##################
+  blow-it-up = !git cam 'REMOVED COMMIT' && git reset --hard HEAD~
+[pull]
+  rebase = preserve
+[branch]
+  autosetuprebase = always
+[remote]
+  prune = true
+[push]
+  default = simple
+[merge]
+  tool = vimdiff
