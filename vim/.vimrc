@@ -12,6 +12,8 @@ call vundle#end()
 filetype plugin indent on
 syntax on
 
+colorscheme koehler
+
 set noswapfile
 set nobackup
 set noerrorbells visualbell t_vb=
@@ -36,4 +38,5 @@ imap ii <Esc>
 " Let me copy to the system clipboard
 vnoremap <C-c> "+y
 
-
+nmap <left> <<
+nmap <right> >>
