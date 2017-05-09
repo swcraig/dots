@@ -8,6 +8,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'vim-ruby/vim-ruby'
 
+" My own choices
+Plugin 'airblade/vim-gitgutter'
+
 call vundle#end()
 filetype plugin indent on
 syntax on
