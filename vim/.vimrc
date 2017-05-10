@@ -43,3 +43,6 @@ set clipboard=unnamedplus
 
 nmap <left> <<
 nmap <right> >>
+
+nmap <down> ddp
+nmap <up> ddkP
