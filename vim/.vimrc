@@ -38,8 +38,8 @@ inoremap <right> <nop>
 " Why is the escape key so far away?!
 imap ii <Esc>
 
-" Let me copy to the system clipboard
-vnoremap <C-c> "+y
+" Copy/paste to/from the system clipboard
+set clipboard=unnamedplus
 
 nmap <left> <<
 nmap <right> >>
