@@ -26,6 +26,7 @@
   unstage = reset HEAD --
   ##################
   r = rebase
+  ra = rebase --abort
   rc = rebase --continue
   ri = rebase -i
   ##################
