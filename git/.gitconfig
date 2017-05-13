@@ -22,6 +22,7 @@
   dc = diff --cached
   ##################
   l = log --graph --pretty=format:'%Cred%h%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  lp = log --graph --pretty=format:'%Cred%h%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -p
   ##################
   unstage = reset HEAD --
   ##################
