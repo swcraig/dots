@@ -10,6 +10,7 @@ Plugin 'vim-ruby/vim-ruby'
 
 " My own choices
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-commentary'
 
 call vundle#end()
 filetype plugin indent on
