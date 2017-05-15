@@ -11,6 +11,7 @@ Plugin 'vim-ruby/vim-ruby'
 " My own choices
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-commentary'
+Plugin 'bronson/vim-trailing-whitespace'
 
 call vundle#end()
 filetype plugin indent on
