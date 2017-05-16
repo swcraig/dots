@@ -24,6 +24,8 @@
   d = diff
   dc = diff --cached
   ##################
+  fix = "!f() { SHA=$(git rev-parse HEAD) && REV=$(git rev-parse $SHA) && git commit --fixup $SHA && git rebase -i --autosquash $REV^; }; f -"
+  ##################
   l = log --graph --pretty=format:'%Cred%h%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
   lp = log --graph --pretty=format:'%Cred%h%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -p
   ##################
