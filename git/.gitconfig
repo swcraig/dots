@@ -19,7 +19,7 @@
   cpa = cherry-pick --abort
   undo-commit = reset --soft HEAD~
   ##################
-  check = !git checkout $1 && git l
+  co = checkout
   ##################
   d = diff
   dc = diff --cached
