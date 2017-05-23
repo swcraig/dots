@@ -49,3 +49,8 @@ nmap <right> >>
 
 nmap <down> ddp
 nmap <up> ddkP
+
+" Highlight the 80th column
+set t_Co=256
+set cc=80
+hi ColorColumn ctermbg=217
