@@ -41,6 +41,8 @@ inoremap <right> <nop>
 " Why is the escape key so far away?!
 imap ii <Esc>
 
+noremap Q :q!<CR>
+
 " Copy/paste to/from the system clipboard
 set clipboard=unnamedplus
 
