@@ -56,3 +56,5 @@ nmap <up> ddkP
 set t_Co=256
 set cc=81
 hi ColorColumn ctermbg=217
+
+inoremap ZZ <Esc>:wq<CR>
