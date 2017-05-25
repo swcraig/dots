@@ -54,5 +54,5 @@ nmap <up> ddkP
 
 " Highlight the 80th column
 set t_Co=256
-set cc=80
+set cc=81
 hi ColorColumn ctermbg=217
