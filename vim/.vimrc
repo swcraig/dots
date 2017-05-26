@@ -10,6 +10,7 @@ Plugin 'vim-ruby/vim-ruby'
 
 " My own choices
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-rake'
 Plugin 'bronson/vim-trailing-whitespace'
