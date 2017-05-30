@@ -13,6 +13,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-rake'
+Plugin 'tpope/vim-git'
 Plugin 'bronson/vim-trailing-whitespace'
 
 call vundle#end()
