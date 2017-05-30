@@ -45,9 +45,6 @@ imap ii <Esc>
 
 noremap Q :q!<CR>
 
-" Copy/paste to/from the system clipboard
-set clipboard=unnamedplus
-
 nmap <left> <<
 nmap <right> >>
 
