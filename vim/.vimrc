@@ -57,3 +57,6 @@ set cc=81
 hi ColorColumn ctermbg=217
 
 inoremap ZZ <Esc>:wq<CR>
+
+set undofile " vim can use undo files to save changes between opening/closing
+set undodir=~/.vimundo " folder to save vim undo files. needs to exist first
