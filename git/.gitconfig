@@ -8,26 +8,35 @@
 [help]
   autocorrect = 10
 [alias]
+  ap = add --patch
+  ##################
   b = branch -v
   ##################
   c = commit
   ca = commit -a
   cm = commit -m
   cam = commit -am
+  cahh = commit --amend
   cp = cherry-pick
   cpc = cherry-pick --continue
   cpa = cherry-pick --abort
-  undo-commit = reset --soft HEAD~
   ##################
   co = checkout
+  cob = checkout -b
   ##################
   d = diff
   dc = diff --cached
   ##################
-  fix = "!f() { SHA=$(git rev-parse HEAD) && REV=$(git rev-parse $SHA) && git commit --fixup $SHA && git rebase -i --autosquash $REV^; }; f -"
+  ec = config --global -e
+  ##################
+  # fix = "!f() { SHA=$(git rev-parse HEAD) && REV=$(git rev-parse $SHA) && git commit --fixup $SHA && git rebase -i --autosquash $REV^; }; f -"
+  fix = commit -a -C HEAD --amend
   ##################
   l = log --graph --pretty=format:'%Cred%h%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
   lp = log --graph --pretty=format:'%Cred%h%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -p
+  ls = log --stat
+  ##################
+  gahh = !git push origin `git rev-parse --abbrev-ref HEAD` -f
   ##################
   unstage = reset HEAD --
   ##################
