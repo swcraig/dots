@@ -10,11 +10,12 @@ Plugin 'vim-ruby/vim-ruby'
 
 " My own choices
 Plugin 'airblade/vim-gitgutter'
+Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-git'
-Plugin 'bronson/vim-trailing-whitespace'
 
 call vundle#end()
 filetype plugin indent on
@@ -50,6 +51,13 @@ nmap <right> >>
 
 nmap <down> ddp
 nmap <up> ddkP
+
+let g:ackprg = 'ag --smart-case'
+" let g:ackprg = 'ag --vimgrep --smart-case'
+cnoreabbrev ag Ack
+cnoreabbrev Ag Ack
+cnoreabbrev aG Ack
+cnoreabbrev AG Ack
 
 " Highlight the 80th column
 set t_Co=256
