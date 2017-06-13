@@ -43,6 +43,7 @@ inoremap <right> <nop>
 
 " Why is the escape key so far away?!
 imap ii <Esc>
+imap II <Esc>
 
 noremap Q :q!<CR>
 
