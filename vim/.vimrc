@@ -66,6 +66,8 @@ set cc=81
 hi ColorColumn ctermbg=217
 
 inoremap ZZ <Esc>:wq<CR>
+inoremap WW <Esc>:w<CR>
+inoremap QQ <Esc>:q!<CR>
 
 set clipboard=unnamedplus
 
