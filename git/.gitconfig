@@ -38,6 +38,8 @@
   ##################
   gahh = !git push origin `git rev-parse --abbrev-ref HEAD` -f
   ##################
+  og-commit = commit -C ORIG_HEAD
+  ##################
   unstage = reset HEAD --
   ##################
   r = rebase
