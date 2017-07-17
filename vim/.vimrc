@@ -70,6 +70,7 @@ hi ColorColumn ctermbg=217
 inoremap ZZ <Esc>:wq<CR>
 inoremap WW <Esc>:w<CR>
 inoremap QQ <Esc>:q!<CR>
+noremap WW <Esc>:w<CR>
 
 set clipboard=unnamedplus
 
