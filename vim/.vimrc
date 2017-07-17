@@ -11,6 +11,7 @@ Plugin 'vim-ruby/vim-ruby'
 " My own choices
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'int3/vim-extradite'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-commentary'
