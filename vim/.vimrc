@@ -14,8 +14,9 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-rake'
+Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
+Plugin 'tpope/vim-rake'
 
 call vundle#end()
 filetype plugin indent on
