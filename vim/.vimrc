@@ -76,3 +76,15 @@ set clipboard=unnamedplus
 
 set undofile " vim can use undo files to save changes between opening/closing
 set undodir=~/.vimundo " folder to save vim undo files. needs to exist first
+
+" The ohya autocommand grouping, which is the best autocommand grouping
+augroup ohya
+
+  " When I open a file
+  " Jump to the last cursor position unless it is unavailable
+  autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+
+augroup END
