@@ -88,3 +88,16 @@ augroup ohya
     \ endif
 
 augroup END
+
+" Multipurpose the tab key
+" If we are at the start of a new line, indent
+" If we are on a character, attempt to tab complete
+function! InsertTabWrapper()
+  let col = col('.') - 1
+  if !col || getline('.')[col - 1] !~ '\k'
+    return "\<tab>"
+  else
+    return "\<c-p>"
+  endif
+endfunction
+inoremap <tab> <c-r>=InsertTabWrapper()<cr>
