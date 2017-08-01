@@ -10,6 +10,9 @@ ZSH_THEME="skaro"
 # chruby
 source /usr/local/share/chruby/chruby.sh
 
+alias standup='vi ~/.standup.md'
+alias note='vi ~/.note.md'
+
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
