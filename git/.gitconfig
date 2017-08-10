@@ -37,6 +37,7 @@
   ls = log --stat
   ##################
   gahh = !git push origin `git rev-parse --abbrev-ref HEAD` -f
+  gooo = !git add . && git rc
   ##################
   og-commit = commit -C ORIG_HEAD
   ##################
