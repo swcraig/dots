@@ -1,5 +1,6 @@
 begin
   require 'pry'
+  Pry.config.prompt = [proc { '' }, proc { '' }]
   Pry.start
   exit
 rescue LoadError => e
