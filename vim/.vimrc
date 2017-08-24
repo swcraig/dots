@@ -33,6 +33,10 @@ set number
 set expandtab
 set softtabstop=2
 set shiftwidth=2
+set textwidth=80
+
+" Auto-wrap at 80, but don't insert an EOL character
+set wrap linebreak nolist
 
 " Stop using the arrow keys you dummy
 noremap <left> <nop>
