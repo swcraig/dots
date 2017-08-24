@@ -23,6 +23,7 @@ call vundle#end()
 filetype plugin indent on
 syntax on
 
+let mapleader = ','
 colorscheme koehler
 
 set noswapfile
@@ -101,3 +102,12 @@ function! InsertTabWrapper()
   endif
 endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
+
+function GetPrLink()
+  let word = expand("<cword>")
+  let pr_number = system('git pr ' . word)
+  let repo_name = substitute(system("git repo"), '\n', '', '')
+  execute '!sensible-browser ' . 'https://github.com/' . repo_name . '/issues/' . pr_number
+endfunction
+
+nnoremap <leader>a :call GetPrLink()<CR>
