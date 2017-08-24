@@ -52,7 +52,7 @@
   ##################
   s = status
   ##################
-  rom = !git rebase -i `git merge-base HEAD master`  # interactive rebase onto master
+  rim = !git rebase -i `git merge-base HEAD master`  # interactive rebase onto master
   ##################
   blow-it-up = !git cam 'REMOVED COMMIT' && git reset --hard HEAD~
 [pull]
