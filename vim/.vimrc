@@ -12,6 +12,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'int3/vim-extradite'
+Plugin 'majutsushi/tagbar'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-commentary'
@@ -115,3 +116,5 @@ function GetPrLink()
 endfunction
 
 nnoremap <leader>a :call GetPrLink()<CR>
+
+nnoremap <Leader>b :TagbarToggle<CR>
