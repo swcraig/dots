@@ -13,7 +13,6 @@ source /usr/local/share/chruby/chruby.sh
 alias standup='vi ~/.standup.md'
 alias note='vi ~/.note.md'
 alias blog='vi ~/.blog.md'
-alias solidus='vi ~/.solidus_notes.md'
 alias songs='vi ~/.songs.md'
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
