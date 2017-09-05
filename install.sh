@@ -1,2 +1,2 @@
 #!/bin/sh
-stow bundler git ruby vim zsh tmux -t ~
+stow bundler ctags git ruby vim zsh tmux -t ~
