@@ -10,6 +10,7 @@ ZSH_THEME="skaro"
 # chruby
 source /usr/local/share/chruby/chruby.sh
 
+alias tmux='tmux -2'
 alias standup='vi ~/.standup.md'
 alias note='vi ~/.note.md'
 alias blog='vi ~/.blog.md'
