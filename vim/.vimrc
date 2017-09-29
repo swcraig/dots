@@ -123,3 +123,5 @@ endfunction
 nnoremap <leader>a :call GetPrLink()<CR>
 
 nnoremap <Leader>b :TagbarToggle<CR>
+
+hi StatusLine ctermbg=0 ctermfg=13
