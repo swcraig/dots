@@ -27,6 +27,8 @@ syntax on
 let mapleader = ','
 colorscheme koehler
 
+
+set relativenumber
 set noswapfile
 set nobackup
 set noerrorbells visualbell t_vb=
