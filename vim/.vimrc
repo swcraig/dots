@@ -118,6 +118,8 @@ nnoremap <leader>a :call GetPrLink()<CR>
 
 nnoremap <Leader>b :TagbarToggle<CR>
 
+nnoremap <Leader>m :Extradite!<CR>
+
 nnoremap <Leader>e orequire 'pry'<Esc>obinding.pry<Esc><CR>
 
 hi StatusLine ctermbg=0 ctermfg=13
