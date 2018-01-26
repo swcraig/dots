@@ -41,8 +41,9 @@ set textwidth=80
 " Auto-wrap at 80, but don't insert an EOL character
 set wrap linebreak nolist
 
-" Only use spellcheck for commit messages
+" Only use spellcheck for commit messages and markdown
 autocmd FileType gitcommit setlocal spell
+autocmd FileType markdown setlocal spell
 
 " Stop using the arrow keys you dummy
 noremap <left> <nop>
