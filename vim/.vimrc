@@ -19,6 +19,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-rake'
+Plugin 'prettier/vim-prettier'
 
 call vundle#end()
 filetype plugin indent on
