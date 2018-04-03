@@ -10,9 +10,7 @@ ZSH_THEME="skaro"
 # chruby
 source /usr/local/share/chruby/chruby.sh
 
-alias note='vi ~/.note.md'
-alias blog='vi ~/.blog.md'
-alias songs='vi ~/.songs.md'
+source $HOME/.aliases
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
